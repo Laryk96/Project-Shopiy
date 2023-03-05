@@ -1,0 +1,22 @@
+.nav__link {
+  padding: 10px;
+
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.8;
+
+  transition: color 120ms ease-in, background-color 120ms ease-in;
+  &:hover {
+    color: black;
+    background-color: orange;
+  }
+}
+
+.active-link {
+  transform: scale(1.05);
+  color: red;
+}

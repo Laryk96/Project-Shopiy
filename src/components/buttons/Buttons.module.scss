@@ -1,0 +1,41 @@
+.button {
+  width: 125px;
+  height: 50px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.8;
+  border-color: #ffbe0b;
+  border-radius: 10px;
+}
+
+.buttonYellow {
+  @extend .button;
+
+  background-color: #ffbe0b;
+  color: #0e0e2c;
+
+  transition: background-color 150ms ease-in, color 150ms ease-in;
+
+  &:hover,
+  &:focus {
+    border: none;
+    background-color: #ffbe0b54;
+    color: #fff;
+  }
+}
+
+.buttonTransparent {
+  @extend .button;
+
+  color: #ffbe0b;
+  background-color: transparent;
+
+  transition: background-color 150ms ease-in, color 150ms ease-in;
+
+  &:hover,
+  &:focus {
+    background-color: #ffbe0b;
+    color: #0e0e2c;
+  }
+}
