@@ -1,0 +1,29 @@
+.connection {
+  margin-bottom: 100px;
+}
+
+.form {
+  position: relative;
+}
+
+.btnWrapper {
+  top: 7px;
+  right: 7px;
+  position: absolute;
+}
+.input {
+  width: 100%;
+  height: 67px;
+  padding-left: 20px;
+  border: 1px solid #626276;
+  border-radius: 18px;
+  background-color: transparent;
+  color: #626276;
+  outline: none;
+  transition: border 200ms ease-in, color 200ms ease-in;
+  &:hover,
+  &:focus {
+    color: #fff;
+    border: 2px solid #fff;
+  }
+}

@@ -1,0 +1,35 @@
+.services {
+  height: 850px;
+  padding-top: 120px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 130px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-position: 0px 100px;
+  background-size: 724px 819px;
+  background-image: url(../../../images/services.png);
+}
+.quantityBox {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.rightBox {
+  width: 50%;
+}
+
+.leftBox {
+  width: 50%;
+}
+
+.quantity {
+  display: block;
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+}

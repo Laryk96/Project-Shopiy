@@ -1,0 +1,44 @@
+.WeDo {
+  display: flex;
+
+  align-items: center;
+
+  padding: 100px 130px;
+}
+
+.box {
+  max-width: 560px;
+}
+
+.list {
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 5px;
+  width: 265px;
+  height: 240px;
+
+  border-radius: 10px;
+
+  transition: background-color 150ms ease-in;
+  &:hover {
+    background-color: #1a1a3d;
+  }
+}
+
+.imgWrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 67px;
+
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
