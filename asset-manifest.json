@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Project-Shopiy/static/css/main.9a55b826.css",
-    "main.js": "/Project-Shopiy/static/js/main.09ec2210.js",
+    "main.css": "/Project-Shopiy/static/css/main.8f0f75cd.css",
+    "main.js": "/Project-Shopiy/static/js/main.8c36cdf0.js",
     "static/media/main.png": "/Project-Shopiy/static/media/main.c0ef4f24ea534a548216.png",
     "static/media/product.png": "/Project-Shopiy/static/media/product.72595b2b6243edfacf6a.png",
     "static/media/Creative.png": "/Project-Shopiy/static/media/Creative.40f9e517571f535f6ad0.png",
@@ -22,11 +22,11 @@
     "static/media/linkedIn.svg": "/Project-Shopiy/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "static/media/play.svg": "/Project-Shopiy/static/media/play.717f23937d97419ae8d5a63502117120.svg",
     "static/media/Check.svg": "/Project-Shopiy/static/media/Check.cb726f579b6ed5fe2683.svg",
-    "main.9a55b826.css.map": "/Project-Shopiy/static/css/main.9a55b826.css.map",
-    "main.09ec2210.js.map": "/Project-Shopiy/static/js/main.09ec2210.js.map"
+    "main.8f0f75cd.css.map": "/Project-Shopiy/static/css/main.8f0f75cd.css.map",
+    "main.8c36cdf0.js.map": "/Project-Shopiy/static/js/main.8c36cdf0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a55b826.css",
-    "static/js/main.09ec2210.js"
+    "static/css/main.8f0f75cd.css",
+    "static/js/main.8c36cdf0.js"
   ]
 }
