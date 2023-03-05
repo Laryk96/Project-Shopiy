@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Project-Shopiy/static/css/main.52412f17.css",
+    "main.js": "/Project-Shopiy/static/js/main.77b18d53.js",
+    "static/media/main.png": "/Project-Shopiy/static/media/main.c0ef4f24ea534a548216.png",
+    "static/media/Ellipse-2.png": "/Project-Shopiy/static/media/Ellipse-2.52c4026310fdcba7f572.png",
+    "static/media/Ellipse-1.png": "/Project-Shopiy/static/media/Ellipse-1.24c59f44c836150a84f3.png",
+    "static/media/girl.png": "/Project-Shopiy/static/media/girl.b6e36337f97568cf0841.png",
+    "static/media/blue.png": "/Project-Shopiy/static/media/blue.88784b52e3451a29a030.png",
+    "static/media/Logo.png": "/Project-Shopiy/static/media/Logo.bc558ec7ad4c18bdbd00.png",
+    "static/media/gitHub.svg": "/Project-Shopiy/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/instagram.svg": "/Project-Shopiy/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
+    "static/media/twitter.svg": "/Project-Shopiy/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
+    "index.html": "/Project-Shopiy/index.html",
+    "static/media/linkedIn.svg": "/Project-Shopiy/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "static/media/play.svg": "/Project-Shopiy/static/media/play.717f23937d97419ae8d5a63502117120.svg",
+    "main.52412f17.css.map": "/Project-Shopiy/static/css/main.52412f17.css.map",
+    "main.77b18d53.js.map": "/Project-Shopiy/static/js/main.77b18d53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52412f17.css",
+    "static/js/main.77b18d53.js"
+  ]
+}
