@@ -7,14 +7,14 @@ import Connection from 'components/Sections/Сonnection/Сonnection';
 
 const About = () => {
   return (
-    <>
+    <main>
       <Main />
       <Services />
       <WhatWeDo />
       <ProductStories />
       <Creative />
       <Connection />
-    </>
+    </main>
   );
 };
 

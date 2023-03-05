@@ -1,14 +1,20 @@
 import { NavLink } from 'react-router-dom';
 import css from './CustomNavLink.module.scss';
 
-const isActive = ({ isActive }) =>
-  isActive ? `${css.nav__link} active-link` : `${css.nav__link}`;
+// const isActive = ({ active }) => (active ? { color: 'red' } : '');
 
 const CustomNavLink = prop => {
   const { children } = prop;
 
   return (
-    <NavLink {...prop} className={isActive}>
+    <NavLink
+      {...prop}
+      className={css.nav__link}
+      style={({ isActive }) => ({
+        backgroundColor: isActive ? 'orange' : '',
+        color: isActive ? 'black' : '',
+      })}
+    >
       {children}
     </NavLink>
   );
