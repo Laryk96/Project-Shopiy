@@ -1,12 +1,15 @@
+import { Link } from 'react-router-dom';
+
+import check from '../../../images/Check.svg';
+import email from '../../../images/Email.svg';
 import Button from 'components/buttons/Buttons';
 import css from './Main.module.scss';
 import style from '../section.module.scss';
 import play from '../../../images/play.svg';
-import { Link } from 'react-router-dom';
 const { mainTitle, text, label, wrapper } = style;
 const {
   main,
-
+  icon,
   form,
   input,
   form__label,
@@ -17,6 +20,7 @@ const {
   board__title,
   board__text,
   board__Btn,
+  iconEmail,
 } = css;
 
 const Main = () => {
@@ -37,14 +41,17 @@ const Main = () => {
               placeholder="Your email address"
               name="email"
             />
+            <img className={iconEmail} src={email} alt="email" />
           </label>
           <div className={checkboxWrapper}>
             <label className={form__label}>
               <input className={checkbox} type="checkbox" name="NoCredit" />
+              <img src={check} alt="check" className={icon} />
               <span> 30 days free trial</span>;
             </label>
             <label className={form__label}>
               <input className={checkbox} type="checkbox" name="NoCredit" />
+              <img src={check} alt="" className={icon} />
               <span>No credit card required</span>
             </label>
           </div>

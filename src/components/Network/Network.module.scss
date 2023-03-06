@@ -7,3 +7,10 @@
 .social__item {
   width: 33px;
 }
+
+.icon {
+  transition: transform 250ms ease-in;
+  &:hover {
+    transform: scale(1.4) rotate(360deg);
+  }
+}
